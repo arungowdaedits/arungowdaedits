@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'montserrat': ['Montserrat', 'sans-serif'],
+				'playfair': ['Playfair Display', 'serif'],
+				'lora': ['Lora', 'serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -62,6 +67,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-gold': 'var(--gradient-gold)',
+				'gradient-overlay': 'var(--gradient-overlay)',
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'soft': 'var(--shadow-soft)',
+				'dramatic': 'var(--shadow-dramatic)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
