@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Play, ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import arunProfile from '@/assets/arun-profile.jpg';
+import arunProfile from '@/assets/arun-profile-new.jpg';
 import heroBackground from '@/assets/hero-background.jpg';
 
 const Hero = () => {
