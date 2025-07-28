@@ -120,10 +120,10 @@ const Skills = () => {
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                { name: "Adobe Premiere Pro", level: 95 },
-                { name: "DaVinci Resolve", level: 90 },
-                { name: "After Effects", level: 85 },
-                { name: "Final Cut Pro", level: 80 }
+                { name: "Adobe Premiere Pro", level: 90 },
+                { name: "DaVinci Resolve", level: 75 },
+                { name: "After Effects", level: 80 },
+                { name: "Adobe Photoshop", level: 70 }
               ].map((software, index) => (
                 <div key={index} className="text-center">
                   <div className="text-lg font-medium text-foreground mb-2">
