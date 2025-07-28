@@ -78,8 +78,8 @@ const Portfolio = () => {
   const featuredVideos = [
     {
       title: "Cinematic Showcase",
-      url: "https://youtu.be/soC58C41Ap4?list=RDsoC58C41Ap4",
-      thumbnail: "https://img.youtube.com/vi/soC58C41Ap4/maxresdefault.jpg",
+      url: "https://youtu.be/7EhJKxVQanc",
+      thumbnail: "https://img.youtube.com/vi/7EhJKxVQanc/maxresdefault.jpg",
       description: "A cinematic piece showcasing storytelling through visual editing"
     },
     {
