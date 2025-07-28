@@ -82,14 +82,14 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 9876543210",
-      action: "tel:+919876543210"
+      value: "+91 7353572704",
+      action: "tel:+917353572704"
     },
     {
       icon: Mail,
       label: "Email",
-      value: "arungowda@email.com",
-      action: "mailto:arungowda@email.com"
+      value: "arungowda2926@gmail.com",
+      action: "mailto:arungowda2926@gmail.com"
     },
     {
       icon: MapPin,
