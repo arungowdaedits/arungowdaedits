@@ -4,9 +4,11 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
+import { emailjs, EMAILJS_CONFIG } from '@/lib/emailjs';
 
 const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -32,23 +34,41 @@ const Contact = () => {
     return () => observer.disconnect();
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsLoading(true);
     
-    // Create mailto link
-    const subject = `Video Editing Inquiry from ${formData.name}`;
-    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
-    const mailtoLink = `mailto:arungowda@email.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    
-    window.open(mailtoLink);
-    
-    toast({
-      title: "Message Prepared!",
-      description: "Your email client will open with the message ready to send.",
-    });
+    try {
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        message: formData.message,
+        to_name: 'Arun Gowda'
+      };
 
-    // Reset form
-    setFormData({ name: '', email: '', message: '' });
+      await emailjs.send(
+        EMAILJS_CONFIG.serviceId,
+        EMAILJS_CONFIG.templateId,
+        templateParams
+      );
+      
+      toast({
+        title: "Message Sent Successfully! ✨",
+        description: "Thank you for reaching out! I'll get back to you within 24 hours.",
+      });
+
+      // Reset form
+      setFormData({ name: '', email: '', message: '' });
+    } catch (error) {
+      console.error('EmailJS Error:', error);
+      toast({
+        title: "Message Failed to Send",
+        description: "There was an error sending your message. Please try again or contact me directly.",
+        variant: "destructive"
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -222,10 +242,11 @@ const Contact = () => {
                 
                 <Button 
                   type="submit"
+                  disabled={isLoading}
                   className="w-full btn-cinematic group"
                 >
-                  <Send className="mr-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                  Send Message
+                  <Send className={`mr-2 h-4 w-4 transition-transform ${isLoading ? 'animate-pulse' : 'group-hover:translate-x-1'}`} />
+                  {isLoading ? 'Sending...' : 'Send Message'}
                 </Button>
               </form>
 
