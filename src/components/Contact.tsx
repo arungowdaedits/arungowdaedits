@@ -113,10 +113,10 @@ const Contact = () => {
       color: "text-blue-500"
     },
     {
-      name: "YouTube",
+      name: "Website",
       icon: ExternalLink,
-      url: "https://youtube.com/@arungowda",
-      color: "text-red-500"
+      url: "https://arungowdaedits.carrd.co",
+      color: "text-green-500"
     }
   ];
 
