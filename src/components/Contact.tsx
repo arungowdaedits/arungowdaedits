@@ -103,7 +103,7 @@ const Contact = () => {
     {
       name: "Instagram",
       icon: Instagram,
-      url: "https://instagram.com/arungowda",
+      url: "https://www.instagram.com/aru_gowda_edits/",
       color: "text-pink-500"
     },
     {
