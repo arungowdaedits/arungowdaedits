@@ -77,25 +77,25 @@ const Portfolio = () => {
 
   const featuredVideos = [
     {
-      title: "Cinematic Showcase",
+      title: "Cinematic Lyrical Video",
       url: "https://youtu.be/7EhJKxVQanc",
       thumbnail: "https://img.youtube.com/vi/7EhJKxVQanc/maxresdefault.jpg",
       description: "A cinematic piece showcasing storytelling through visual editing"
     },
     {
-      title: "Creative Edit",
+      title: "ADS",
       url: "https://youtu.be/ktSwXqnq0Vg",
       thumbnail: "https://img.youtube.com/vi/ktSwXqnq0Vg/maxresdefault.jpg",
       description: "Dynamic editing with advanced transitions and effects"
     },
     {
-      title: "Brand Story",
+      title: "Short Films",
       url: "https://youtu.be/84CH9SNzhdQ",
       thumbnail: "https://img.youtube.com/vi/84CH9SNzhdQ/maxresdefault.jpg",
       description: "Professional brand video with compelling narrative"
     },
     {
-      title: "Music Video",
+      title: "Comedy Youtube Videos",
       url: "https://youtu.be/bOORt6-9XRo",
       thumbnail: "https://img.youtube.com/vi/bOORt6-9XRo/maxresdefault.jpg",
       description: "Rhythmic editing synchronized with musical beats"
