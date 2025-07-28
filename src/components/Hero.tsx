@@ -34,7 +34,7 @@ const Hero = () => {
         style={{ backgroundImage: `url(${heroBackground})` }}
       >
         <div className="absolute inset-0 bg-gradient-overlay"></div>
-        <div className="absolute inset-0 bg-background/40"></div>
+        <div className="absolute inset-0 bg-background/70"></div>
       </div>
 
       {/* Content */}
