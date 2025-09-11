@@ -35,9 +35,9 @@
     --input: 0 0% 8%;
     --ring: 0 0% 100%;
 
-    /* Black Cinematic Gradients */
+    /* Black & Light Yellow Cinematic Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 5%));
-    --gradient-accent: linear-gradient(135deg, hsl(0 0% 15%), hsl(0 0% 25%));
+    --gradient-accent: linear-gradient(135deg, hsl(30 100% 60%), hsl(20 100% 50%));
     --gradient-gold: linear-gradient(135deg, hsl(0 0% 20%), hsl(0 0% 30%));
     --gradient-overlay: linear-gradient(to bottom, transparent, hsl(0 0% 0% / 0.8));
 
