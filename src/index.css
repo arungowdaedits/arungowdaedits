@@ -6,27 +6,27 @@
 
 @layer base {
   :root {
-    /* Black & Red Cinematic Theme */
+    /* Black & Light Yellow Cinematic Theme */
     --background: 0 0% 0%;
-    --foreground: 0 85% 65%;
+    --foreground: 60 100% 85%;
 
     --card: 0 0% 3%;
-    --card-foreground: 0 85% 65%;
+    --card-foreground: 60 100% 85%;
 
     --popover: 0 0% 3%;
-    --popover-foreground: 0 85% 65%;
+    --popover-foreground: 60 100% 85%;
 
-    --primary: 0 85% 65%;
+    --primary: 60 100% 85%;
     --primary-foreground: 0 0% 0%;
 
     --secondary: 0 0% 8%;
-    --secondary-foreground: 0 85% 65%;
+    --secondary-foreground: 60 100% 85%;
 
     --muted: 0 0% 5%;
-    --muted-foreground: 0 70% 55%;
+    --muted-foreground: 60 80% 70%;
 
     --accent: 0 0% 15%;
-    --accent-foreground: 0 85% 65%;
+    --accent-foreground: 60 100% 85%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
