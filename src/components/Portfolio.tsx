@@ -99,6 +99,30 @@ const Portfolio = () => {
       url: "https://youtu.be/bOORt6-9XRo",
       thumbnail: "https://img.youtube.com/vi/bOORt6-9XRo/maxresdefault.jpg",
       description: "Rhythmic editing synchronized with musical beats"
+    },
+    {
+      title: "Documentary Edit",
+      url: "https://youtu.be/7EhJKxVQanc",
+      thumbnail: "https://img.youtube.com/vi/7EhJKxVQanc/maxresdefault.jpg",
+      description: "Compelling documentary with emotional storytelling"
+    },
+    {
+      title: "Wedding Highlights",
+      url: "https://youtu.be/ktSwXqnq0Vg",
+      thumbnail: "https://img.youtube.com/vi/ktSwXqnq0Vg/maxresdefault.jpg",
+      description: "Beautiful wedding moments captured cinematically"
+    },
+    {
+      title: "Corporate Promo",
+      url: "https://youtu.be/84CH9SNzhdQ",
+      thumbnail: "https://img.youtube.com/vi/84CH9SNzhdQ/maxresdefault.jpg",
+      description: "Professional corporate video with sleek transitions"
+    },
+    {
+      title: "Travel Vlog",
+      url: "https://youtu.be/bOORt6-9XRo",
+      thumbnail: "https://img.youtube.com/vi/bOORt6-9XRo/maxresdefault.jpg",
+      description: "Immersive travel content with stunning visuals"
     }
   ];
 
