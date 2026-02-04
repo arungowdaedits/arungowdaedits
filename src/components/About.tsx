@@ -25,7 +25,7 @@ const About = () => {
   const highlights = [
     {
       icon: Award,
-      title: "4+ Years Experience",
+      title: "5+ Years Experience",
       description: "Crafting visual stories that resonate with audiences"
     },
     {
