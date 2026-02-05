@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ExternalLink, Play, Instagram, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import moviePromotionThumb from '@/assets/movie-promotion-thumb.png';
+import aiReelsThumb from '@/assets/ai-reels-thumb.jpg';
 
 const Portfolio = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -108,9 +109,9 @@ const Portfolio = () => {
       description: "Bridging the gap between a great script and a global audience"
     },
     {
-      title: "Generative Cinematography",
+      title: "AI Reels",
       url: "https://www.instagram.com/reel/DTg4ArPEga8/",
-      thumbnail: "https://img.youtube.com/vi/ktSwXqnq0Vg/maxresdefault.jpg",
+      thumbnail: aiReelsThumb,
       description: "Merging human vision with artificial intelligence to craft hyper-realistic, high-fidelity cinematic motion"
     },
     {
