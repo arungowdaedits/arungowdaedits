@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { ExternalLink, Play, Instagram, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import moviePromotionThumb from '@/assets/movie-promotion-thumb.jpg';
+import moviePromotionThumb from '@/assets/movie-promotion-thumb.png';
 
 const Portfolio = () => {
   const [isVisible, setIsVisible] = useState(false);
