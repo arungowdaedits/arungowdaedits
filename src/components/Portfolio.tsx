@@ -3,6 +3,7 @@ import { ExternalLink, Play, Instagram, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import moviePromotionThumb from '@/assets/movie-promotion-thumb.png';
 import aiReelsThumb from '@/assets/ai-reels-thumb.jpg';
+import shortFormThumb from '@/assets/short-form-thumb.jpg';
 
 const Portfolio = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -117,7 +118,7 @@ const Portfolio = () => {
     {
       title: "Dynamic Short-Form Content",
       url: "https://www.instagram.com/reel/DOkkuXUj1uQ/",
-      thumbnail: "https://img.youtube.com/vi/84CH9SNzhdQ/maxresdefault.jpg",
+      thumbnail: shortFormThumb,
       description: "Specializing in high-retention short-form edits designed to drive organic reach and engagement"
     },
     {
