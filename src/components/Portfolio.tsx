@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { ExternalLink, Play, Instagram, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import moviePromotionThumb from '@/assets/movie-promotion-thumb.jpg';
 
 const Portfolio = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -103,7 +104,7 @@ const Portfolio = () => {
     {
       title: "Movie Promotion",
       url: "https://www.instagram.com/p/DTw1IZIk7Og/",
-      thumbnail: "https://img.youtube.com/vi/7EhJKxVQanc/maxresdefault.jpg",
+      thumbnail: moviePromotionThumb,
       description: "Bridging the gap between a great script and a global audience"
     },
     {
