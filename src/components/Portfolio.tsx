@@ -101,28 +101,28 @@ const Portfolio = () => {
       description: "Rhythmic editing synchronized with musical beats"
     },
     {
-      title: "Documentary Edit",
-      url: "https://youtu.be/7EhJKxVQanc",
+      title: "Movie Promotion",
+      url: "https://www.instagram.com/p/DTw1IZIk7Og/",
       thumbnail: "https://img.youtube.com/vi/7EhJKxVQanc/maxresdefault.jpg",
-      description: "Compelling documentary with emotional storytelling"
+      description: "Bridging the gap between a great script and a global audience"
     },
     {
-      title: "Wedding Highlights",
-      url: "https://youtu.be/ktSwXqnq0Vg",
+      title: "Generative Cinematography",
+      url: "https://www.instagram.com/reel/DTg4ArPEga8/",
       thumbnail: "https://img.youtube.com/vi/ktSwXqnq0Vg/maxresdefault.jpg",
-      description: "Beautiful wedding moments captured cinematically"
+      description: "Merging human vision with artificial intelligence to craft hyper-realistic, high-fidelity cinematic motion"
     },
     {
-      title: "Corporate Promo",
-      url: "https://youtu.be/84CH9SNzhdQ",
+      title: "Dynamic Short-Form Content",
+      url: "https://www.instagram.com/reel/DOkkuXUj1uQ/",
       thumbnail: "https://img.youtube.com/vi/84CH9SNzhdQ/maxresdefault.jpg",
-      description: "Professional corporate video with sleek transitions"
+      description: "Specializing in high-retention short-form edits designed to drive organic reach and engagement"
     },
     {
-      title: "Travel Vlog",
-      url: "https://youtu.be/bOORt6-9XRo",
-      thumbnail: "https://img.youtube.com/vi/bOORt6-9XRo/maxresdefault.jpg",
-      description: "Immersive travel content with stunning visuals"
+      title: "Podcast",
+      url: "https://youtu.be/kYIRCvaiTRg",
+      thumbnail: "https://img.youtube.com/vi/kYIRCvaiTRg/maxresdefault.jpg",
+      description: "Unlocking industry secrets through deep-dive conversations with the world's leading voices"
     }
   ];
 
