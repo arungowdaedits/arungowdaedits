@@ -35,7 +35,7 @@ const Services = () => {
         "Audio enhancement and sync",
         "SEO-optimized video structure"
       ],
-      price: "Starting from ₹2,500"
+      price: "Starting from ₹5,000"
     },
     {
       icon: Smartphone,
@@ -48,7 +48,7 @@ const Services = () => {
         "Platform-specific aspect ratios",
         "Engaging visual effects"
       ],
-      price: "Starting from ₹1,500"
+      price: "Starting from ₹3,000"
     },
     {
       icon: Building,
@@ -61,7 +61,7 @@ const Services = () => {
         "Multiple format delivery",
         "Revision rounds included"
       ],
-      price: "Starting from ₹5,000"
+      price: "Starting from ₹10,000"
     }
   ];
 
